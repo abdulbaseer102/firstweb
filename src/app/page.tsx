@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Asamad from "./samad/page";
 
 export default function Home() {
   return (
   <div>
-    hello world
-from abdul baseer
+    <Asamad Name="Faheem" color="yello" />
+
   </div>
   );
 }
